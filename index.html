@@ -5,38 +5,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="https://kit.fontawesome.com/b4adf50f1e.js" crossorigin="anonymous"></script>
-    <title>Document</title>
+    <title>Calculator</title>
 </head>
 <body>
-    <div id="display">
-        <p id="previous">old</p>
-        <input id="current" class="" type="text" name="name" placeholder="0" required="" autofocus>
-    </div>
-    <div id="buttons">
-        <button type="button" class="sign" value="clear">Clear</button>
-        <button type="button" class="sign" value="del">Del</button>
-        <button type="button" class="operator" value="%">%</button>
-        <button type="button" class="operator" value="/">/</button>
-
-        <button type="button" class="number" value="7">7</button>
-        <button type="button" class="number" value="8">8</button>
-        <button type="button" class="number" value="9">9</button>
-        <button type="button" class="operator" value="*">*</button>
-
-        <button type="button" class="number" value="4">4</button>
-        <button type="button" class="number" value="5">5</button>
-        <button type="button" class="number" value="6">6</button>
-        <button type="button" class="operator" value="+">+</button>
-
-        <button type="button" class="number" value="1">1</button>
-        <button type="button" class="number" value="2">2</button>
-        <button type="button" class="number" value="3">3</button>
-        <button type="button" class="operator" value="-">-</button>
-
-        <button type="button" class="number" value="0">0</button>
-        <button type="button" class="sign" value=".">.</button>
-        <button type="button" class="sign" value="=">=</button>
+    <div class="grid">
+        <div class="display">
+            <div class="previous">0 +</div>
+            <input class="current" class="" type="text" placeholder="0" required="" autofocus>
+        </div>
         
+        <button value="clear">Clear</button>
+        <button value="del">Del</button>
+        <button value="%">%</button>
+        <button value="/">/</button>
+
+        <button value="7">7</button>
+        <button value="8">8</button>
+        <button value="9">9</button>
+        <button value="*">*</button>
+
+        <button value="4">4</button>
+        <button value="5">5</button>
+        <button value="6">6</button>
+        <button value="+">+</button>
+
+        <button value="1">1</button>
+        <button value="2">2</button>
+        <button value="3">3</button>
+        <button value="-">-</button>
+
+        <button value="0">0</button>
+        <button value=".">.</button>
+        <button class="span-two" value="=">=</button>
     </div>
     <script src="scripts.js"></script>
 </body>
